@@ -47,3 +47,52 @@ Run the cells in the notebook sequentially to execute the code.
 
 ## Conclusion
 The Space-ship Task code comprehensively analyzes the given dataset and demonstrates the process of data preprocessing, feature engineering, visualization, and building classification models. The models can be further fine-tuned and optimized to achieve better performance.
+
+## IPL Task 
+This code performs an analysis of IPL (Indian Premier League) data using two datasets: deliveries.csv and matches.csv. The code utilizes Python libraries such as pandas, numpy, and matplotlib for data manipulation, analysis, and visualization.
+
+# Deliveries Analysis
+The deliveries.csv dataset contains information about each ball delivered in IPL matches. The code performs the following analysis:
+
+Prints the information about the dataset using the info() function.
+Displays the shape of the dataset using the shape attribute.
+Shows the first few rows of the dataset using the head() function.
+Provides summary statistics of the dataset using the describe() function.
+Checks for missing values using the isnull().sum() function.
+Identifies unique values in certain columns such as batting team, bowling team, batsman, and bowler.
+Visualizes the first and second innings scores for each batting team using horizontal bar plots.
+Calculates and visualizes the total runs scored by the top 10 batsmen using a horizontal bar plot.
+Counts the number of dismissals (wickets) using the player_dismissed column and visualizes the top 10 bowlers with the most dismissals using a horizontal bar plot.
+Computes the number of sixes hit by each batting team and visualizes it using a horizontal bar plot.
+Computes the number of fours hit by each batting team and visualizes it using a horizontal bar plot.
+Computes the number of fours hit by each player and visualizes the top 10 players with the most fours using a horizontal bar plot.
+Computes the number of sixes hit by each player and visualizes the top 10 players with the most sixes using a horizontal bar plot.
+
+## Match Analysis
+The matches.csv dataset contains information about each IPL match. The code performs the following analysis:
+
+Prints the information about the dataset using the info() function.
+Counts the number of times each player received the "Player of the Match" award and visualizes the top 10 players using a horizontal bar plot.
+Visualizes the number of matches won by each team at each venue using bar plots.
+The code provides insights into various aspects of IPL matches, including team performance, player performance, and match outcomes. The visualizations help in better understanding the data and identifying trends.
+
+## Requirements
+The code is written in Python and requires the following libraries:
+
+pandas
+numpy
+matplotlib
+These libraries can be installed using pip or conda.
+
+## Usage
+Make sure you have Python installed.
+Download the deliveries.csv and matches.csv datasets.
+Install the required libraries mentioned in the Requirements section.
+Open a Python IDE or Jupyter Notebook.
+Import the necessary libraries (pandas, numpy, matplotlib.pyplot).
+Copy the code into the Python environment.
+Modify the file paths in the pd.read_csv() function to load the datasets.
+Run the code to perform the analysis and visualize the results.
+
+## Conclusion
+The IPL Task code provides an analysis of IPL data, exploring various aspects such as team performance, player performance, and match outcomes. The code can be extended and modified to perform further analysis based on specific requirements and objectives.
