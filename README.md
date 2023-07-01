@@ -1,6 +1,6 @@
 # Intern_Task
 
-# Space-ship Task README
+# Space-ship Task 
 This repository contains code for the Space-ship Task, which involves predicting whether a passenger will be transported or not on a space ship based on various features. The task involves data preprocessing, feature engineering, visualization, and building classification models using different algorithms.
 
 ##Dataset
